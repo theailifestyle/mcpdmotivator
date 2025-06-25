@@ -1,18 +1,30 @@
-# 🏆 DMotivator: AI-Powered Football Rivalry Bot
+# ⚽ Soccer Banter Agent: AI-Powered Rivalry Bot
 
 **Instagram DM MCP Hackathon Submission** 🧨
 
-An unhinged football rivalry bot that monitors real-time player goals and team wins, then sends AI-generated banter messages to rival fans via Instagram DMs using the Model Context Protocol (MCP).
+An intelligent soccer banter agent that monitors real-time player goals and team wins, then sends AI-generated trash talk messages to rival fans via Instagram DMs using the Model Context Protocol (MCP).
+
+## 🎬 Demo Video
+
+[![Soccer Banter Agent Demo](https://img.shields.io/badge/▶️-Watch%20Demo-red?style=for-the-badge&logo=youtube)](./Demo.mp4)
+
+*Click above to watch the Soccer Banter Agent in action! See how it monitors live soccer data and automatically sends AI-generated banter messages to rival fans via Instagram DMs.*
+
+**Demo Highlights:**
+- 🎯 Real-time goal detection and team win tracking
+- 🤖 AI-powered banter message generation
+- 📱 Automatic Instagram DM delivery
+- ⚽ Multiple rivalry scenarios (Messi vs Ronaldo, Man City vs Man United)
 
 ## 🎯 Hackathon Challenge
 
-This project was built for the **Instagram DM MCP Hackathon** - leveraging the open-sourced MCP server to create something wild with Instagram DMs. Our bot automatically trolls rival football fans with personalized, AI-generated banter whenever their rivals score or win.
+This project was built for the **Instagram DM MCP Hackathon** - leveraging the open-sourced MCP server to create something wild with Instagram DMs. Our soccer banter agent automatically trolls rival soccer fans with personalized, AI-generated banter whenever their rivals score or win.
 
 ## 🚀 How It Works
 
-### The Magic Behind DMotivator
+### The Magic Behind Soccer Banter Agent
 
-1. **Real-Time Sports Monitoring**: Continuously monitors football APIs for player goals and team wins
+1. **Real-Time Sports Monitoring**: Continuously monitors soccer APIs for player goals and team wins
 2. **AI-Powered Banter Generation**: Uses OpenAI GPT to create unique, contextual trash talk messages
 3. **Instagram DM Automation**: Sends personalized messages to rival fans via MCP-powered Instagram integration
 4. **Smart Rivalry Management**: Tracks multiple player and team rivalries with sophisticated state management
@@ -114,7 +126,7 @@ Unlike static templates, our bot uses OpenAI GPT to generate contextual, unique 
 def generate_banter_message(scorer_name, supported_entity, current_count, entity_type):
     """Generate dynamic banter using OpenAI with fallback to enhanced templates"""
     
-    prompt = f"""Generate a fun, playful, and banterous social media message for football fans. 
+    prompt = f"""Generate a fun, playful, and banterous social media message for soccer fans. 
 
 Context:
 - {scorer_name} just scored (now has {current_count} goals/wins this season)
@@ -122,7 +134,7 @@ Context:
 - Keep it light-hearted, funny, and engaging - good-natured trolling
 - Use emojis and make it social media friendly
 - Maximum 280 characters
-- The tone should be like friendly banter between football fans at a pub
+- The tone should be like friendly banter between soccer fans at a sports bar
 
 Generate ONLY the message text."""
 
@@ -341,7 +353,7 @@ mcpdmotivator/
 
 This bot represents the future of sports engagement - where AI meets real-time data to create personalized, contextual interactions. It's not just about sending messages; it's about creating moments of joy, rivalry, and community in the digital sports world.
 
-**The result?** A bot that doesn't just notify - it entertains, engages, and brings the passion of football rivalry into the digital age with style and humor! 🏆⚽️
+**The result?** A bot that doesn't just notify - it entertains, engages, and brings the passion of soccer rivalry into the digital age with style and humor! 🏆⚽️
 
 ## 📞 Support & Contributing
 
@@ -374,6 +386,6 @@ The `.gitignore` file ensures these sensitive files are **never** committed to v
 
 ---
 
-*Built for the Instagram DM MCP Hackathon - Where AI meets football passion!* 🧨
+*Built for the Instagram DM MCP Hackathon - Where AI meets soccer passion!* 🧨
 
 **Let the banter begin!** ⚽️🤖 
