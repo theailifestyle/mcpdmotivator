@@ -9,7 +9,7 @@ This file defines the rivalries and their target recipients.
 - 'fan_instagram_username' is who gets the DM when this player scores.
 """
 
-# Rivalry configurations
+# Rivalry configurations - DEMO VERSION with different Instagram accounts
 RIVALRIES = [
     # Individual player rivalries
     {
@@ -18,7 +18,7 @@ RIVALRIES = [
         "type": "player",
         "rival_name": "Lionel Messi",
         "supported_player": "Lionel Messi",  # This is who we support/motivate for
-        "target_username": "cr7ir"  # Ronaldo fan page - gets notified when Messi scores
+        "target_username": "demo_ronaldo_fan"  # Demo account - gets notified when Messi scores
     },
     {
         "id": "154",  # Messi  
@@ -26,7 +26,7 @@ RIVALRIES = [
         "type": "player", 
         "rival_name": "Cristiano Ronaldo",
         "supported_player": "Cristiano Ronaldo",  # This is who we support/motivate for
-        "target_username": "we.are.messi"  # Messi fan page - gets notified when Ronaldo scores
+        "target_username": "demo_messi_fan"  # Demo account - gets notified when Ronaldo scores
     },
     
     # Team rivalries - tracking wins instead of goals
@@ -36,7 +36,7 @@ RIVALRIES = [
         "type": "team",
         "rival_name": "Manchester United", 
         "supported_team": "Manchester United",  # This is who we support/motivate for
-        "target_username": "mancity_mcfc"  # Man City fan page - gets notified when Man United wins
+        "target_username": "demo_city_fan"  # Demo account - gets notified when Man United wins
     },
     {
         "id": "33",  # Manchester United
@@ -44,7 +44,7 @@ RIVALRIES = [
         "type": "team",
         "rival_name": "Manchester City",
         "supported_team": "Manchester City",  # This is who we support/motivate for
-        "target_username": "fulltimedevils"  # Man United fan page - gets notified when Man City wins
+        "target_username": "demo_united_fan"  # Demo account - gets notified when Man City wins
     }
 ]
 

@@ -3,6 +3,11 @@ import json
 import subprocess
 import sys
 import time
+import os
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 class MCPClient:
     def __init__(self, server_command: list):
@@ -131,11 +136,15 @@ def send_rival_dm(recipient_username, message):
     print("\n--- Preparing to send DM ---")
     print(json.dumps(command, indent=2))
     print("---------------------------\n")
+    # Get credentials from environment variables for security
+    demo_username = os.getenv("DEMO_INSTAGRAM_USERNAME", "demo_motivator_2024")
+    demo_password = os.getenv("DEMO_INSTAGRAM_PASSWORD", "YOUR_DEMO_PASSWORD")
+    
     server_command = [
         "python3",
         "mcp_server.py",
-        "--username", "dm_otivator",
-        "--password", "motivationrival123"
+        "--username", demo_username,
+        "--password", demo_password
     ]
     client = MCPClient(server_command)
     if not client.start_server():

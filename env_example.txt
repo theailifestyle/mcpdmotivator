@@ -1,0 +1,17 @@
+# Environment Variables for MCP DM Motivator Demo
+# Copy this content to a .env file and fill in your actual credentials
+
+# Football API Configuration
+FOOTBALL_API_KEY=your_football_api_key_here
+
+# OpenAI Configuration (optional)
+OPENAI_API_KEY=your_openai_api_key_here
+
+# Demo Instagram Account Credentials
+# Replace these with your actual demo account credentials
+DEMO_INSTAGRAM_USERNAME=your_demo_account_username
+DEMO_INSTAGRAM_PASSWORD=your_demo_account_password
+
+# Production Instagram Account Credentials (if different)
+PROD_INSTAGRAM_USERNAME=your_production_account_username  
+PROD_INSTAGRAM_PASSWORD=your_production_account_password 
