@@ -137,14 +137,14 @@ def send_rival_dm(recipient_username, message):
     print(json.dumps(command, indent=2))
     print("---------------------------\n")
     # Get credentials from environment variables for security
-    demo_username = os.getenv("DEMO_INSTAGRAM_USERNAME", "demo_motivator_2024")
-    demo_password = os.getenv("DEMO_INSTAGRAM_PASSWORD", "YOUR_DEMO_PASSWORD")
+    instagram_username = os.getenv("INSTAGRAM_USERNAME", "your_instagram_username")
+    instagram_password = os.getenv("INSTAGRAM_PASSWORD", "your_instagram_password")
     
     server_command = [
         "python3",
         "mcp_server.py",
-        "--username", demo_username,
-        "--password", demo_password
+        "--username", instagram_username,
+        "--password", instagram_password
     ]
     client = MCPClient(server_command)
     if not client.start_server():

@@ -7,11 +7,11 @@ FOOTBALL_API_KEY=your_football_api_key_here
 # OpenAI Configuration (optional)
 OPENAI_API_KEY=your_openai_api_key_here
 
-# Demo Instagram Account Credentials
-# Replace these with your actual demo account credentials
-DEMO_INSTAGRAM_USERNAME=your_demo_account_username
-DEMO_INSTAGRAM_PASSWORD=your_demo_account_password
+# Instagram Account Credentials
+# Replace these with your actual Instagram account credentials
+INSTAGRAM_USERNAME=your_instagram_username
+INSTAGRAM_PASSWORD=your_instagram_password
 
-# Production Instagram Account Credentials (if different)
-PROD_INSTAGRAM_USERNAME=your_production_account_username  
-PROD_INSTAGRAM_PASSWORD=your_production_account_password 
+# Demo Instagram Account Credentials (for testing)
+DEMO_INSTAGRAM_USERNAME=your_demo_account_username
+DEMO_INSTAGRAM_PASSWORD=your_demo_account_password 
